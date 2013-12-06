@@ -4,5 +4,7 @@
     <string name="app_name">Pokketo Monsuto</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="generic_pokemon_name">Pokemon</string>
+    <string name="generic_pokemon_type">Type</string>
 
 </resources>

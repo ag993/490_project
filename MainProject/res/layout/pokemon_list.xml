@@ -2,19 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:contentDescription="@string/app_name"
+    android:orientation="horizontal" >
     
-    <LinearLayout 
-        android:orientation="horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-    	>
+   
         
-        <ImageView 
-         	android:layout_width="75dp"
+        <ImageView
+            android:layout_width="75dp"
             android:layout_height="75dp"
+            android:contentDescription="@string/generic_pokemon_name"
             android:paddingLeft="12dp"
-            android:src="@drawable/pikatsu_silhouette_small"/>
+            android:src="@drawable/pikatsu_silhouette_small" />
         
         <LinearLayout 
         	android:orientation="vertical"
@@ -23,14 +21,13 @@
     		>
     		
             <TextView
-		        android:id="@+id/textViewPokemonNameForList"
-		        android:textSize="12dp"
-		        android:layout_width="wrap_content"
-		        android:layout_height="wrap_content"
-		        android:text="PokeName" 
-		        android:textStyle="italic"
-		        android:paddingLeft="12dp"
-		        />
+                android:id="@+id/textViewPokemonNameForList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:text="@string/generic_pokemon_name"
+                android:textSize="20sp"
+                android:textStyle="italic" />
             
             <LinearLayout 
 		        android:orientation="horizontal"
@@ -42,12 +39,14 @@
 		            android:layout_width="75dp"
 		            android:layout_height="75dp"
 		            android:paddingLeft="12dp"
+		            android:contentDescription="@string/generic_pokemon_type"
 		            android:src="@drawable/type_normal"/>
                 
                 <ImageView 
 		            android:layout_width="75dp"
 		            android:layout_height="75dp"
 		            android:paddingLeft="12dp"
+		            android:contentDescription="@string/generic_pokemon_type"
 		            android:src="@drawable/type_normal"/>
                 
             </LinearLayout>	
@@ -55,6 +54,6 @@
              
         </LinearLayout>
         
-    </LinearLayout>
+  
 
 </LinearLayout>
