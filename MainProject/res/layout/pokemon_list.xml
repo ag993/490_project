@@ -1,7 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
     
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	>
+        
+        <ImageView 
+         	android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:paddingLeft="12dp"
+            android:src="@drawable/pikatsu_silhouette_small"/>
+        
+        <LinearLayout 
+        	android:orientation="vertical"
+       		android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+    		>
+    		
+            <TextView
+		        android:id="@+id/textViewPokemonNameForList"
+		        android:textSize="12dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="PokeName" 
+		        android:textStyle="italic"
+		        android:paddingLeft="12dp"
+		        />
+            
+            <LinearLayout 
+		        android:orientation="horizontal"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		    	>
+		    	
+                <ImageView 
+		            android:layout_width="75dp"
+		            android:layout_height="75dp"
+		            android:paddingLeft="12dp"
+		            android:src="@drawable/type_normal"/>
+                
+                <ImageView 
+		            android:layout_width="75dp"
+		            android:layout_height="75dp"
+		            android:paddingLeft="12dp"
+		            android:src="@drawable/type_normal"/>
+                
+            </LinearLayout>	
+             
+             
+        </LinearLayout>
+        
+    </LinearLayout>
 
-</ListView>
+</LinearLayout>
