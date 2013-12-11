@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView
+        android:id="@+id/pokemon_view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/generic_pokemon_name"
+        android:paddingTop="20dp"
+        android:textSize="35sp" />
+    
+    
+    <ImageView
+        android:id="@+id/pokemon_view_avatar"
+     	android:layout_width="225dp"
+        android:layout_height="225dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/generic_pokemon_name"        
+        android:src="@drawable/pikatsu_silhouette_big" />
+    
+
+</LinearLayout>  
