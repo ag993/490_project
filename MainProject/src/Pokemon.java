@@ -9,6 +9,7 @@ public class Pokemon {
 	public int mPokemonSpecialAttack;
 	public int mPokemonSpecialDefense;
 	public int mPokemonSpeed;
+	public avatar mAvatar;
 	
 	public Pokemon(string name, int hP, int attack, int defense, int specialAttack, int specialDefense, int speed){
 		name = mPokemonName;
