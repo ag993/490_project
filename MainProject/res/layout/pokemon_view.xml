@@ -25,5 +25,25 @@
         android:contentDescription="@string/generic_pokemon_name"        
         android:src="@drawable/pikatsu_silhouette_big" />
     
-
+	    <LinearLayout 
+	        android:orientation="horizontal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:layout_gravity="center_horizontal" >
+	    	
+	            <ImageView 
+		            android:layout_width="75dp"
+		            android:layout_height="75dp"
+		            android:paddingLeft="12dp"
+		            android:contentDescription="@string/generic_pokemon_type"
+		            android:src="@drawable/type_default"/>
+	              
+	            <ImageView 
+		            android:layout_width="75dp"
+		            android:layout_height="75dp"
+		            android:paddingLeft="12dp"
+		            android:contentDescription="@string/generic_pokemon_type"
+		            android:src="@drawable/type_default"/>
+    	</LinearLayout>
+    
 </LinearLayout>  

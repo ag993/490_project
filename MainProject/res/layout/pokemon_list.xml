@@ -40,14 +40,14 @@
 		            android:layout_height="75dp"
 		            android:paddingLeft="12dp"
 		            android:contentDescription="@string/generic_pokemon_type"
-		            android:src="@drawable/type_normal"/>
+		            android:src="@drawable/type_default"/>
                 
                 <ImageView 
 		            android:layout_width="75dp"
 		            android:layout_height="75dp"
 		            android:paddingLeft="12dp"
 		            android:contentDescription="@string/generic_pokemon_type"
-		            android:src="@drawable/type_normal"/>
+		            android:src="@drawable/type_default"/>
                 
             </LinearLayout>	
              
