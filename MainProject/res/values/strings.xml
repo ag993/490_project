@@ -6,5 +6,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="generic_pokemon_name">Pokemon</string>
     <string name="generic_pokemon_type">Type</string>
+    <string name="pokeballImageButton">Button</string>
 
 </resources>
