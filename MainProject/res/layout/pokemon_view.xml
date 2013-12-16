@@ -25,25 +25,223 @@
         android:contentDescription="@string/generic_pokemon_name"        
         android:src="@drawable/pikatsu_silhouette_big" />
     
-	    <LinearLayout 
+  	<LinearLayout 
 	        android:orientation="horizontal"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content" 
 	        android:layout_gravity="center_horizontal" >
-	    	
-	            <ImageView 
-		            android:layout_width="75dp"
-		            android:layout_height="75dp"
-		            android:paddingLeft="12dp"
-		            android:contentDescription="@string/generic_pokemon_type"
-		            android:src="@drawable/type_default"/>
-	              
-	            <ImageView 
-		            android:layout_width="75dp"
-		            android:layout_height="75dp"
-		            android:paddingLeft="12dp"
-		            android:contentDescription="@string/generic_pokemon_type"
-		            android:src="@drawable/type_default"/>
-    	</LinearLayout>
+		        
+	  	<TextView
+	        android:id="@+id/pokemon_view_dexNumTitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text="@string/generic_pokemon_dexNumTitle"
+	        android:paddingTop="5dp"	        
+	        android:textSize="12sp" />
+	  	
+	  	
+	  	<TextView
+	        android:id="@+id/pokemon_view_dexNum"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text="@string/generic_pokemon_dexNum"
+	        android:paddingTop="5dp"	        
+	        android:textSize="12sp" />       
+  	    
+  	</LinearLayout>     	    
+  	
+
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center_horizontal" >
+    	
+            <ImageView 
+	            android:layout_width="75dp"
+	            android:layout_height="75dp"
+	            android:paddingLeft="12dp"
+	            android:contentDescription="@string/generic_pokemon_type"
+	            android:src="@drawable/type_default"/>
+              
+            <ImageView 
+	            android:layout_width="75dp"
+	            android:layout_height="75dp"
+	            android:paddingLeft="12dp"
+	            android:contentDescription="@string/generic_pokemon_type"
+	            android:src="@drawable/type_default"/>
+   	</LinearLayout>
+   	
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center_horizontal">
+            
+        <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center_horizontal">
+      
+
+	    <LinearLayout
+	       	android:orientation="vertical"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:paddingRight="5dp">
+		    
+		    <TextView
+		        android:id="@+id/pokemon_view_HPTitle"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="left"
+		        android:text="@string/pokemon_view_HPTitleText"	 
+		            
+		        android:textSize="12sp" />
+		    
+		    <TextView
+		        android:id="@+id/pokemon_view_attackTitle"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="left"
+		        android:text="@string/pokemon_view_attackTitleText"	 
+		              
+		        android:textSize="12sp" />
+		    
+		    <TextView
+		        android:id="@+id/pokemon_view_defenseTitle"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:text="@string/pokemon_view_defenseTitleText"	 
+		             
+		        android:textSize="12sp" />
+		    
+	       
+	       
+	    	</LinearLayout>   
+		    	
+		    
+        
+        
+	        <LinearLayout
+		       	android:orientation="vertical"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:paddingRight="5dp">
+			    
+			    <TextView
+			        android:id="@+id/pokemon_view_HPValue"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"		        
+			        android:layout_gravity="right"
+			        android:text="@string/generic_pokemon_attributeValue"  
+			        android:textSize="12sp" /> 
+			    
+		       	<TextView
+			        android:id="@+id/pokemon_view_attackValue"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="right"		        
+			        android:text="@string/generic_pokemon_attributeValue"  
+			        android:textSize="12sp" /> 
+			        
+		       	<TextView
+			        android:id="@+id/pokemon_view_defenseValue"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"	
+			        android:layout_gravity="right"	        
+			        android:text="@string/generic_pokemon_attributeValue"  
+			        android:textSize="12sp" /> 		    
+			    
+		       
+		       
+		    </LinearLayout> 
+		    
+	        
+	    </LinearLayout>    
+	   
     
+	    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center_horizontal">
+	    
+		    <LinearLayout
+		       	android:orientation="vertical"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:paddingRight="5dp">
+	
+		        <TextView
+			        android:id="@+id/pokemon_view_specialAttackTitle"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="left"
+			        android:text="@string/pokemon_view_specialAttackTitleText"	        	        
+			        android:textSize="12sp" />
+		        		    
+		        <TextView
+			        android:id="@+id/pokemon_view_specialDefenseTitle"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="left"
+			        android:text="@string/pokemon_view_specialDefenseTitleText"		        	        
+			        android:textSize="12sp" /> 
+			        
+		        <TextView
+			        android:id="@+id/pokemon_view_speedTitle"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="left"
+			        android:text="@string/pokemon_view_speedTitleText" 		        	        
+			        android:textSize="12sp" />  
+	
+		       
+		    </LinearLayout>         
+	        
+	    
+	    
+	    	<LinearLayout
+		       	android:orientation="vertical"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:paddingRight="5dp">
+			    
+			    <TextView
+			        android:id="@+id/pokemon_view_specialAttackValue"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="right"
+			        android:text="@string/generic_pokemon_attributeValue"	        
+			        android:textSize="12sp" /> 
+			        
+			    <TextView
+			        android:id="@+id/pokemon_view_specialDefenseValue"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="right"
+			        android:text="@string/generic_pokemon_attributeValue"	        
+			        android:textSize="12sp" /> 
+			    
+			    <TextView
+			        android:id="@+id/pokemon_view_speedValue"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="right"
+			        android:text="@string/generic_pokemon_attributeValue"	        
+			        android:textSize="12sp" /> 
+	       
+		       
+		   </LinearLayout> 
+        
+       </LinearLayout> 
+        
+    </LinearLayout>     
+   
+        
 </LinearLayout>  
