@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PokeMonster</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pokemons_name"> Pokemon: Catch Em All</string>
+    <string name="generic_pokemon_name">Pokemon</string>
+    <string name="generic_pokemon_type">Type</string>
+    <string name="generic_pokemon_dexNum">####</string>
+    <string name="generic_pokemon_dexNumTitle">Pokedex Number:</string>
+    <string name="generic_pokemon_attributeValue">000</string>
+    <string name="pokemon_view_specialAttackTitleText">Special Attack:  </string>
+    <string name="pokemon_view_attackTitleText">Attack:</string>
+    <string name="pokemon_view_defenseTitleText">Defense:</string>
+    <string name="pokemon_view_specialDefenseTitleText">Special Defense:</string>
+    <string name="pokemon_view_speedTitleText">Speed:</string>
+    <string name="pokemon_view_HPTitleText">HP:</string>
+</resources>
